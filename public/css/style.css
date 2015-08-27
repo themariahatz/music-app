@@ -2,7 +2,7 @@ body{
   font-family: 'sans-serif';
 }
 
-h2{ 
+h2{
   font: strong;
   text-align: center;
 }
@@ -16,7 +16,7 @@ form{
 }
 
 form{
-  
+
   border: 1px solid;
   border-radius: 5px;
 }
@@ -24,9 +24,14 @@ form{
 label, input, option{
   margin-top: 2%;
   margin-bottom: 2%;
-  
+
 }
 img{
   margin-left: 31%;
   margin-right: 33%;
+}
+
+.nav{
+  color: #000000;
+  background-color: #000000;
 }
