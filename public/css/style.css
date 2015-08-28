@@ -35,3 +35,13 @@ img{
   color: #000000;
   background-color: #000000;
 }
+
+#section {
+    border: solid 2px;
+    width:350px;
+    float:left;
+    padding:10px;
+}
+
+
+}
