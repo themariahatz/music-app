@@ -1,8 +1,19 @@
 <!doctype HTML>
 <html>
-  <head> <title> Genre </title> </head>
-  <body>
-    <h2> Squacoon Response Page </h2>
+  <head> <title> Genre </title>
+    <link rel = "stylesheet" type = "text/css" href ="css/style.css">
+  </head>
+  <body  background = "images/background.png">
+    <h1> <%=@artist[0]%> picked by our staff</h1>
+
+      <ul>
+
+        <li><%=@artist[1]%></li>
+        <li><%=@artist[2]%></li>
+        <li><%=@artist[3]%></li>
+        <li><%=@artist[4]%></li>
+        <li><%=@artist[5]%></li>
+      </ul>
 
   </body>
   </html>

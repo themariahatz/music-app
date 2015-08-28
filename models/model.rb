@@ -2,16 +2,16 @@
 
 def selection(genre)
   if genre == "Alternative"
-    return "Joel Michael Howard" + "Mac Demarco" + "Hockey Dad" + "Allah-Las" + "Tame Impala" + "The Front Bottoms"
+    return ["Alternative", "Joel Michael Howard", "Mac Demarco", "Hockey Dada", "Allah-Las", "Tame Impala"]
 
-  elsif genre == "Rock/Garage Rock"
-    return "Thee oh Sees" + "Skegss" + "Ty Segall" + "The Growlers" + "The Coachwhips"
+  elsif genre == "Rock/Garage Rock" || genre == "Rock" || genre == "Garage Rock"
+    return ["Rock/Garage Rock", "Thee oh Sees", "Skegss", "Ty Segall", "The Growlers", "The Coachwhips"]
 
   elsif genre == "Electronic/New Wave"
-    return "Todd Terje" + "Panda bear" + "Chet Faker" + "Motor City Drum Ensemble" + "Flume" + "XXYYXX"
+    return ["Electronic/New Wave", "Todd Terje", "Panda bear", "Chet Faker", "Motor City Drum Ensemble", "XXYYXX"]
 
-  elsif genre == "Rap/Hip Hop"
-    return "Yung Lean" + "Vince Staples" + "Joey Bada$$" + "Allan Kingdom" + "Noname Gypsy"
+  elsif genre == "Rap/Hip Hop" || genre == "Rap" || genre == "Hip Hop"
+    return ["Rap/Hip Hop", "Yung Lean", "Vince Staples", "Joey Bada$$", "Allan Kingdom", "  Noname Gypsy"]
 
   end
 
